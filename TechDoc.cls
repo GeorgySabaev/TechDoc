@@ -153,12 +153,11 @@
     \renewcommand{\@academicTeacherName}{#2}
 }
 
-\newcommand{\@academicSupervisorName}{\IfLanguageName{english}{V. V. Shilov}{В. В. Шилов}}
+\newcommand{\@academicSupervisorName}{\IfLanguageName{english}{N. A. Pavlochev}{Н. А. Павлочев}}
 \newcommand{\@academicSupervisorTitle}{
     \IfLanguageName{english}
-        {Academic supervisor of the <<software engineering>> programme, PhD}
-        {Академический руководитель образовательной программы «Программная инженерия»
-				профессор департамента программной инженерии, канд. техн. наук}}
+        {Academic supervisor of the <<software engineering>> programme}
+        {Академический руководитель образовательной программы «Программная инженерия»}}
 \newcommand{\academicSupervisor}[2]{
     \renewcommand{\@academicSupervisorTitle}{#1}
     \renewcommand{\@academicSupervisorName}{#2}
